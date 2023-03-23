@@ -13,3 +13,8 @@ void display_seats(int seats[]) {
     }
     printf("\n");
 }
+// Function to reserve a seat
+void reserve_seat(int seats[]) {
+    int seat_num;
+    printf("Enter seat number to reserve: ");
+    scanf("%d", &seat_num);
