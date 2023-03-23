@@ -25,4 +25,8 @@ void reserve_seat(int seats[]) {
     if (seats[seat_num - 1] == 1) {
         printf("Seat already reserved!\n");
         return;
+    
     }
+    seats[seat_num - 1] = 1;
+    printf("Seat %d reserved successfully!\n", seat_num);
+}
