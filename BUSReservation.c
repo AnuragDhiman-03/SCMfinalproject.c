@@ -54,3 +54,7 @@ int main() {
     int seats[MAX_SEATS] = {0};  // 0 = available, 1 = reserved
     int choice;
 >>>>>>> 83cf7331624422ba7a6327d7b0a0de6298fd5777
+    while (1) {
+        printf("\n");
+        printf("1. Display available seats\n");
+        printf("2. Reserve a seat\n");
