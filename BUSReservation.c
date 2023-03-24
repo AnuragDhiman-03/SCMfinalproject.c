@@ -62,3 +62,13 @@ int main() {
         printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
+	switch (choice) {
+            case 1:
+                display_seats(seats);
+                break;
+            case 2:
+                reserve_seat(seats);
+                break;
+            case 3:
+                cancel_reservation(seats);
+                break;
