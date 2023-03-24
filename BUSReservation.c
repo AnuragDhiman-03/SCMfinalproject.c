@@ -41,4 +41,8 @@ if (seat_num < 1 || seat_num > MAX_SEATS) {
 if (seats[seat_num - 1] == 0) {
         printf("Seat not reserved!\n");
         return;
-    }    
+    }
+seats[seat_num - 1] = 0;
+    printf("Reservation for seat %d cancelled successfully!\n", seat_num);
+}
+
