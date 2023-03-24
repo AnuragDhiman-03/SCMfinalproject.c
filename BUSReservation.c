@@ -58,3 +58,7 @@ int main() {
         printf("\n");
         printf("1. Display available seats\n");
         printf("2. Reserve a seat\n");
+	printf("3. Cancel a reservation\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
