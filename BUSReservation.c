@@ -34,3 +34,8 @@ void cancel_reservation(int seats[]) {
     int seat_num;
     printf("Enter seat number to cancel reservation: ");
     scanf("%d", &seat_num);
+if (seat_num < 1 || seat_num > MAX_SEATS) {
+        printf("Invalid seat number!\n");
+        return;
+    }
+    
