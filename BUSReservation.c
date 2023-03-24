@@ -29,4 +29,6 @@ void reserve_seat(int seats[]) {
     }
     seats[seat_num - 1] = 1;
     printf("Seat %d reserved successfully!\n", seat_num);
-}
+int main() {
+    int seats[MAX_SEATS] = {0};  // 0 = available, 1 = reserved
+    int choice;}
