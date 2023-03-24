@@ -38,4 +38,7 @@ if (seat_num < 1 || seat_num > MAX_SEATS) {
         printf("Invalid seat number!\n");
         return;
     }
-    
+if (seats[seat_num - 1] == 0) {
+        printf("Seat not reserved!\n");
+        return;
+    }    
