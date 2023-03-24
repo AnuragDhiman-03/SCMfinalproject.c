@@ -30,3 +30,7 @@ void reserve_seat(int seats[]) {
     seats[seat_num - 1] = 1;
     printf("Seat %d reserved successfully!\n", seat_num);
 }
+void cancel_reservation(int seats[]) {
+    int seat_num;
+    printf("Enter seat number to cancel reservation: ");
+    scanf("%d", &seat_num);
